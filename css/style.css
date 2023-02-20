@@ -1,0 +1,110 @@
+body{
+    margin: auto;
+    width: 80%;
+   }
+   header{
+    display: block;
+    background-color: #DAF7A6;
+    padding: 30px;
+    text-align:center;
+   }
+   footer{
+    display: block;
+    background-color: #DAF7A6;
+    padding: 10px;
+    text-align:center;
+   }
+   /*Navigation */
+   nav ul{
+    list-style: none;
+    background-color: #8b9e68;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+   }
+   nav li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+    padding: 0 20px;
+   }
+   nav a{
+    text-decoration: none;
+    color: #fff;
+   }
+   nav a:hover{
+    color: #000;
+   }
+   button{
+    width: 100%;
+    margin: auto;
+    display: block;
+    background-color: #8b9e68;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+    padding: 0 20px;
+   }
+   /* Main Content */
+   section{
+    padding: 20px 0;
+    text-align:center;
+    border-bottom: 1px solid #8b9e68;
+   }
+   .imgclass{
+    display: inline-block;
+    border: 1px solid #000;
+    width: 150px;
+    height: 150px;
+   }
+   article{
+    padding: 10px 0;
+   }
+   input,select,textarea{
+    width:90%;
+    display:block;
+    margin:0 auto;
+   }
+   .frmbtn{
+    background-color:#8b9e68;
+    cursor: pointer;
+    color: white;
+   }
+   .frmbtn:hover{
+    color:black;
+   }
+   /*Responsive Design */
+   @media screen and (min-width: 600px){
+    .artclass div {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    }
+    nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+   display: inline-block;
+    }
+    button{
+    display: none;
+    }
+    form{
+    display:inline-block;
+    }
+    input,select,textarea{
+   padding:10px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+    }
+   }
+   
